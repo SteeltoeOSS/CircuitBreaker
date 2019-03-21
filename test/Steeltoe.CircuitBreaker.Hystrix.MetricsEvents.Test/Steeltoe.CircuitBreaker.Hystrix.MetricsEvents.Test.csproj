@@ -9,7 +9,7 @@
     <PackageId>Steeltoe.CircuitBreaker.Hystrix.MetricsEvents.Test</PackageId>
     <PackageTags>ASPNET Core;CircuitBreaker;Spring;Spring Cloud;Spring Cloud Hystrix;Hystrix</PackageTags>
     <PackageProjectUrl>http://steeltoe.io</PackageProjectUrl>
-    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
     <!-- Next two lines needed due to https://github.com/aspnet/Hosting/issues/926 -->
     <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
