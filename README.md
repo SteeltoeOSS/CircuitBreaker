@@ -9,7 +9,7 @@ This repository contains various packages for implementing the Circuit breaker p
 
 Additionally, two additional packages are included each of which help you use the [Hystrix Dashboard](https://github.com/Netflix/Hystrix/wiki/Dashboard) to monitor your applications circuits and gather Hystrix metrics in real time. The [Steeltoe.CircuitBreaker.Hystrix.MetricsEvents](https://github.com/SteeltoeOSS/CircuitBreaker/tree/master/src/Steeltoe.CircuitBreaker.Hystrix.MetricsEvents) package enables using the open source [Netflix Hystrix Dashboard](https://github.com/Netflix/Hystrix/wiki/Dashboard) when monitoring your ASP.NET application. You simply include this package in your application and then point the Netflix Dashboard at the app in order to begin seeing Hystrix Metrics.
 
-The other dashboard releated package is the [SteelToe.CircuitBreaker.Hystrix.MetricsStream](https://github.com/SteeltoeOSS/CircuitBreaker/tree/dev/src/Steeltoe.CircuitBreaker.Hystrix.MetricsStream) package.  It enables using the Spring Cloud Services [Hystrix Dashboard](http://docs.pivotal.io/spring-cloud-services/1-3/common/circuit-breaker) on Cloud Foundry for monitoring your application. In order to use it, you include this package into your application and then bind the Spring Cloud Services Hystrix Dashboard to your app to begin streaming metrics to the dashboard.
+The other dashboard releated package is the [SteelToe.CircuitBreaker.Hystrix.MetricsStream](https://github.com/SteeltoeOSS/CircuitBreaker/tree/dev/src/Steeltoe.CircuitBreaker.Hystrix.MetricsStream) package.  It enables using the Spring Cloud Services [Hystrix Dashboard](https://docs.pivotal.io/spring-cloud-services/1-3/common/circuit-breaker) on Cloud Foundry for monitoring your application. In order to use it, you include this package into your application and then bind the Spring Cloud Services Hystrix Dashboard to your app to begin streaming metrics to the dashboard.
 
 Windows Master:  [![AppVeyor Master](https://ci.appveyor.com/api/projects/status/pfv60665u6c6ufpx/branch/master?svg=true)](https://ci.appveyor.com/project/steeltoe/circuitbreaker/branch/master)
 
@@ -27,7 +27,7 @@ While the primary usage of the providers is intended to be with ASP.NET Core app
 Currently all of the code and samples have been tested on .NET Core 1.1, .NET 4.6.x, and on ASP.NET Core 1.1.0.
 # Usage
 
-For more information on how to use these components see the online [Steeltoe documentation](http://steeltoe.io/).
+For more information on how to use these components see the online [Steeltoe documentation](https://steeltoe.io/).
 
 # Nuget Feeds
 All new development is done on the dev branch. More stable versions of the packages can be found on the master branch. The latest prebuilt packages from each branch can be found on one of two MyGet feeds. Released version can be found on nuget.org.
