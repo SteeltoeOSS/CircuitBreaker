@@ -9,7 +9,7 @@
     <PackageId>Steeltoe.CircuitBreaker.Hystrix.Core.Test</PackageId>
     <PackageTags>ASPNET Core;CircuitBreaker;Spring;Spring Cloud;Spring Cloud Hystrix;Hystrix</PackageTags>
     <PackageProjectUrl>http://steeltoe.io</PackageProjectUrl>
-    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
