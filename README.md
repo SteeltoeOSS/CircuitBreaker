@@ -1,5 +1,7 @@
 # .NET Circuit Breaker Frameworks
 
+> NOTICE: This repository has been relocated as a sub-directory under the [Steeltoe](https://github.com/SteeltoeOSS/steeltoe) repository. All issues and future development will be done under that repository.
+
 Cloud-native architectures are typically composed of multiple layers of distributed services. End-user requests may comprise multiple calls to these services, and if a lower-level service fails, the failure can cascade up to the end user and spread to other dependent services. Heavy traffic to a failing service can also make it difficult to repair. Using Circuit Breaker patterns, you can prevent failures from cascading and provide fallback behavior until a failing service is restored to normal operation.
 
 When applied to a service, a circuit breaker framework watches for failing calls to the service. If failures reach a certain threshold, it “opens” the circuit and automatically redirects calls to the specified fallback mechanism. This gives the failing service time to recover.
